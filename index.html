@@ -1,0 +1,487 @@
+<!doctype html>
+<html lang="ru" class="no-js">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>LUMEN — жалюзи и рулонные шторы на заказ в премиальных цветах</title>
+  <meta name="description" content="LUMEN — собственное производство жалюзи, рулонных штор и плиссе на заказ. Точное попадание в цвет интерьера, ткани и алюминий премиум-класса, замер и установка под ключ, гарантия 5 лет.">
+  <meta name="theme-color" content="#16161a">
+  <link rel="canonical" href="https://example.com/">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="ru_RU">
+  <meta property="og:site_name" content="LUMEN">
+  <meta property="og:title" content="LUMEN — жалюзи и рулонные шторы в премиальных цветах">
+  <meta property="og:description" content="Производство на заказ. Точное попадание в цвет интерьера. Замер и установка под ключ.">
+  <meta property="og:image" content="images/hero.webp">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%2316161a'/%3E%3Cg fill='%23c8a96e'%3E%3Crect x='14' y='16' width='36' height='4' rx='2'/%3E%3Crect x='14' y='26' width='36' height='4' rx='2'/%3E%3Crect x='14' y='36' width='36' height='4' rx='2'/%3E%3Crect x='14' y='46' width='36' height='4' rx='2'/%3E%3C/g%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Manrope:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="preload" as="image" href="images/hero.webp">
+  <link rel="stylesheet" href="styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "LUMEN",
+    "description": "Производство жалюзи, рулонных штор и плиссе на заказ в премиальных цветах",
+    "image": "images/hero.webp",
+    "telephone": "+7 (900) 000-00-00",
+    "email": "hello@lumen-blinds.ru",
+    "priceRange": "₽₽₽",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "ул. Примерная, 1, шоурум 3",
+      "addressLocality": "Москва",
+      "addressCountry": "RU"
+    },
+    "openingHoursSpecification": [{
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],
+      "opens": "10:00",
+      "closes": "20:00"
+    }],
+    "makesOffer": [
+      {"@type": "Offer", "itemOffered": {"@type": "Product", "name": "Горизонтальные жалюзи"}},
+      {"@type": "Offer", "itemOffered": {"@type": "Product", "name": "Вертикальные жалюзи"}},
+      {"@type": "Offer", "itemOffered": {"@type": "Product", "name": "Рулонные шторы"}},
+      {"@type": "Offer", "itemOffered": {"@type": "Product", "name": "Плиссе"}}
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip" href="#main">К содержимому</a>
+
+  <!-- Фоновые «жидкие» пятна и курсорный блик -->
+  <div class="ambient" aria-hidden="true">
+    <span class="blob blob--gold"></span>
+    <span class="blob blob--rose"></span>
+    <span class="blob blob--slate"></span>
+  </div>
+  <div class="cursor-glow" aria-hidden="true"></div>
+
+  <!-- ============ МЕНЮ ============ -->
+  <header class="header" id="top">
+    <nav class="nav glass glass--pill" aria-label="Основное меню">
+      <a class="brand" href="#top" aria-label="LUMEN — на главную">
+        <span class="brand__mark" aria-hidden="true"><i></i><i></i><i></i></span>
+        <span class="brand__name">LUMEN</span>
+      </a>
+      <ul class="nav__links" id="nav-links">
+        <li><a href="#about">О нас</a></li>
+        <li><a href="#catalog">Каталог</a></li>
+        <li><a href="#colors">Цвета</a></li>
+        <li><a href="#gallery">Объекты</a></li>
+        <li><a href="#process">Процесс</a></li>
+        <li><a href="#contacts">Контакты</a></li>
+      </ul>
+      <a class="btn btn--glass btn--sm nav__cta" href="#calc">Рассчитать</a>
+      <button class="burger" type="button" aria-label="Открыть меню" aria-expanded="false" aria-controls="mobile-menu"><span></span><span></span></button>
+    </nav>
+  </header>
+
+  <div class="mobile-menu" id="mobile-menu" hidden>
+    <ul>
+      <li><a href="#about">О компании</a></li>
+      <li><a href="#catalog">Каталог</a></li>
+      <li><a href="#colors">Премиальные цвета</a></li>
+      <li><a href="#benefits">Преимущества</a></li>
+      <li><a href="#gallery">Объекты</a></li>
+      <li><a href="#process">Как мы работаем</a></li>
+      <li><a href="#contacts">Контакты</a></li>
+    </ul>
+    <a class="btn btn--gold" href="#calc">Рассчитать стоимость</a>
+  </div>
+
+  <main id="main">
+    <!-- ============ 1. HERO ============ -->
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero__bg" data-parallax="0.25">
+        <img src="images/hero.webp" width="1920" height="1280" alt="Деревянные горизонтальные жалюзи в тёплом вечернем свете, полосы света на стене" fetchpriority="high">
+      </div>
+      <div class="hero__veil" aria-hidden="true"></div>
+      <div class="hero__liquid" aria-hidden="true">
+        <span></span><span></span><span></span>
+      </div>
+
+      <div class="container hero__inner">
+        <div class="hero__content">
+          <p class="eyebrow reveal">Собственное производство · с 2011 года</p>
+          <h1 class="hero__title reveal" id="hero-title" style="--d:.08s">
+            Жалюзи и рулонные шторы <em>в&nbsp;премиальных цветах</em>
+          </h1>
+          <p class="hero__lead reveal" style="--d:.16s">
+            Изготавливаем на заказ по вашим размерам за 5–7 дней и подбираем оттенок ткани или ламели точно в цвет вашего интерьера: стен, текстиля, мебели.
+          </p>
+          <div class="hero__actions reveal" style="--d:.24s">
+            <a class="btn btn--glass btn--lg" href="#calc">
+              <span>Рассчитать стоимость</span>
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+            </a>
+            <a class="link-arrow" href="#catalog">Смотреть каталог</a>
+          </div>
+        </div>
+
+        <aside class="hero__card glass glass--drop reveal" style="--d:.36s" aria-label="LUMEN в цифрах">
+          <div class="stat"><b data-count="1200">0</b><span>оттенков тканей и ламелей</span></div>
+          <div class="stat"><b data-count="14">0</b><span>лет производства</span></div>
+          <div class="stat"><b data-count="9800">0</b><span>оформленных окон</span></div>
+          <div class="hero__swatches" aria-hidden="true">
+            <i style="--c:#c8a96e"></i><i style="--c:#d8c3a5"></i><i style="--c:#c9a3a0"></i><i style="--c:#8a8d6a"></i><i style="--c:#6c7a8c"></i>
+          </div>
+        </aside>
+      </div>
+
+      <a class="scroll-cue" href="#about" aria-label="Листать вниз"><span></span></a>
+    </section>
+
+    <!-- ============ 2. О КОМПАНИИ ============ -->
+    <section class="section about" id="about" aria-labelledby="about-title">
+      <div class="container about__grid">
+        <div class="about__media reveal">
+          <div class="about__img" data-parallax="0.08">
+            <img src="images/about.webp" width="1400" height="933" loading="lazy" alt="Солнечный свет проходит сквозь ламели жалюзи и ложится полосами на стену">
+          </div>
+          <div class="about__badge glass glass--drop">
+            <b>ΔE&nbsp;&lt;&nbsp;1</b>
+            <span>точность совпадения цвета с образцом</span>
+          </div>
+        </div>
+        <div class="about__text">
+          <p class="eyebrow reveal">О компании</p>
+          <h2 class="h2 reveal" id="about-title">Производство, где цвет —&nbsp;<em>главный материал</em></h2>
+          <p class="reveal">LUMEN — фабрика солнцезащитных систем полного цикла. Сами кроим, собираем и контролируем каждое изделие на собственной площадке. Работаем с европейскими тканями и анодированным алюминием, а механизмы проходят 10&nbsp;000 циклов испытаний.</p>
+          <p class="reveal">Наша особенность — колористика. Подбираем оттенок по фото, образцу краски или ткани и спектрофотометру, чтобы шторы стали частью интерьера, а не просто закрывали окно.</p>
+          <ul class="about__facts reveal">
+            <li><b>2 400 м²</b><span>производственная площадка</span></li>
+            <li><b>5–7 дней</b><span>срок изготовления</span></li>
+            <li><b>5 лет</b><span>гарантия на механизмы</span></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 3. КАТАЛОГ ============ -->
+    <section class="section catalog" id="catalog" aria-labelledby="catalog-title">
+      <div class="container">
+        <header class="section__head">
+          <p class="eyebrow reveal">Каталог</p>
+          <h2 class="h2 reveal" id="catalog-title">Виды продукции</h2>
+          <p class="section__sub reveal">Наведите на карточку, чтобы увидеть преимущества и палитру.</p>
+        </header>
+
+        <div class="catalog__grid">
+          <article class="product glass glass--card reveal" tabindex="0">
+            <div class="product__img"><img src="images/horizontal.webp" width="900" height="1350" loading="lazy" alt="Белые горизонтальные алюминиевые жалюзи на окне, за ними небо"></div>
+            <div class="product__body">
+              <span class="product__num">01</span>
+              <h3>Горизонтальные жалюзи</h3>
+              <p class="product__price">от 2 900 ₽/м²</p>
+              <div class="product__more"><div class="product__more-inner">
+                <ul>
+                  <li>Алюминий 16 и 25 мм, дерево и бамбук</li>
+                  <li>Точная регулировка света поворотом ламелей</li>
+                  <li>Монтаж в проём или на створку</li>
+                </ul>
+                <div class="palette" aria-label="Палитра"><i style="--c:#ece6dc"></i><i style="--c:#c8a96e"></i><i style="--c:#8b6f4e"></i><i style="--c:#3a3a40"></i><i style="--c:#6c7a8c"></i></div>
+              </div></div>
+            </div>
+          </article>
+
+          <article class="product glass glass--card reveal" style="--d:.08s" tabindex="0">
+            <div class="product__img"><img src="images/vertical.webp" width="900" height="600" loading="lazy" alt="Светлые вертикальные тканевые жалюзи крупным планом"></div>
+            <div class="product__body">
+              <span class="product__num">02</span>
+              <h3>Вертикальные жалюзи</h3>
+              <p class="product__price">от 2 400 ₽/м²</p>
+              <div class="product__more"><div class="product__more-inner">
+                <ul>
+                  <li>Ламели 89 и 127 мм: ткань, ПВХ, жаккард</li>
+                  <li>Для панорамных окон и офисов</li>
+                  <li>Ручное или моторизованное управление</li>
+                </ul>
+                <div class="palette" aria-label="Палитра"><i style="--c:#e8dfd2"></i><i style="--c:#d8c3a5"></i><i style="--c:#a7a296"></i><i style="--c:#8a8d6a"></i><i style="--c:#4a4a52"></i></div>
+              </div></div>
+            </div>
+          </article>
+
+          <article class="product glass glass--card reveal" style="--d:.16s" tabindex="0">
+            <div class="product__img"><img src="images/roller.webp" width="900" height="1359" loading="lazy" alt="Спальня с рулонной шторой на окне, мягкий рассеянный свет"></div>
+            <div class="product__body">
+              <span class="product__num">03</span>
+              <h3>Рулонные шторы</h3>
+              <p class="product__price">от 3 200 ₽/м²</p>
+              <div class="product__more"><div class="product__more-inner">
+                <div class="tags"><span>День-ночь</span><span>Блэкаут</span><span>Стандарт</span></div>
+                <ul>
+                  <li>Системы mini, UNI и кассетные</li>
+                  <li>Блэкаут до 100% затемнения</li>
+                </ul>
+                <div class="palette" aria-label="Палитра"><i style="--c:#f1ebe2"></i><i style="--c:#c9a3a0"></i><i style="--c:#b08d57"></i><i style="--c:#59616e"></i><i style="--c:#2b2b30"></i></div>
+              </div></div>
+            </div>
+          </article>
+
+          <article class="product glass glass--card reveal" style="--d:.24s" tabindex="0">
+            <div class="product__img"><img src="images/pleated.webp" width="900" height="656" loading="lazy" alt="Окно со светлыми жалюзи в мягком контровом свете"></div>
+            <div class="product__body">
+              <span class="product__num">04</span>
+              <h3>Плиссе и премиум-решения</h3>
+              <p class="product__price">от 4 800 ₽/м²</p>
+              <div class="product__more"><div class="product__more-inner">
+                <ul>
+                  <li>Плиссе для мансард и нестандартных окон</li>
+                  <li>Римские шторы и системы «умный дом»</li>
+                  <li>Электропривод Somfy, управление голосом</li>
+                </ul>
+                <div class="palette" aria-label="Палитра"><i style="--c:#e9e2d6"></i><i style="--c:#d9c4a0"></i><i style="--c:#c9a3a0"></i><i style="--c:#7d8a6a"></i><i style="--c:#6c7a8c"></i></div>
+              </div></div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 4. ПРЕМИАЛЬНЫЕ ЦВЕТА ============ -->
+    <section class="section colors" id="colors" aria-labelledby="colors-title">
+      <div class="container">
+        <header class="section__head">
+          <p class="eyebrow reveal">Колористика</p>
+          <h2 class="h2 reveal" id="colors-title">Премиальные цвета</h2>
+          <p class="section__sub reveal">Нажмите или наведите на оттенок, чтобы примерить его в интерьере.</p>
+        </header>
+
+        <div class="colors__layout">
+          <div class="colors__stage glass glass--frame reveal">
+            <img src="images/room.webp" width="1600" height="900" loading="lazy" alt="Светлая гостиная с диваном и большим окном — пример для примерки цвета">
+            <div class="colors__tint" aria-hidden="true"></div>
+            <div class="colors__shade" aria-hidden="true"><span class="colors__shade-bar"></span></div>
+            <div class="colors__label glass glass--pill" aria-live="polite">
+              <i class="colors__dot"></i>
+              <span><b id="color-name">Шампань</b> <small id="color-code">LM-102</small></span>
+            </div>
+          </div>
+
+          <div class="swatches reveal" role="radiogroup" aria-label="Выбор оттенка">
+            <!-- Добавляйте оттенки: data-color — HEX, data-name — название, data-code — артикул -->
+            <button class="swatch is-active" role="radio" aria-checked="true" data-color="#cdb48a" data-name="Шампань" data-code="LM-102" style="--c:#cdb48a"><span>Шампань</span></button>
+            <button class="swatch" role="radio" aria-checked="false" data-color="#d9c7ab" data-name="Тёплый беж" data-code="LM-108" style="--c:#d9c7ab"><span>Тёплый беж</span></button>
+            <button class="swatch" role="radio" aria-checked="false" data-color="#b0915b" data-name="Матовое золото" data-code="LM-215" style="--c:#b0915b"><span>Матовое золото</span></button>
+            <button class="swatch" role="radio" aria-checked="false" data-color="#8c6a4a" data-name="Бронза" data-code="LM-219" style="--c:#8c6a4a"><span>Бронза</span></button>
+            <button class="swatch" role="radio" aria-checked="false" data-color="#c9a19e" data-name="Пыльная роза" data-code="LM-307" style="--c:#c9a19e"><span>Пыльная роза</span></button>
+            <button class="swatch" role="radio" aria-checked="false" data-color="#7f845f" data-name="Олива" data-code="LM-412" style="--c:#7f845f"><span>Олива</span></button>
+            <button class="swatch" role="radio" aria-checked="false" data-color="#62738a" data-name="Сланцевый синий" data-code="LM-505" style="--c:#62738a"><span>Сланцевый синий</span></button>
+            <button class="swatch" role="radio" aria-checked="false" data-color="#45464d" data-name="Антрацит" data-code="LM-601" style="--c:#45464d"><span>Антрацит</span></button>
+            <button class="swatch" role="radio" aria-checked="false" data-color="#2a2a2f" data-name="Графит" data-code="LM-608" style="--c:#2a2a2f"><span>Графит</span></button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 5. ПРЕИМУЩЕСТВА ============ -->
+    <section class="section benefits" id="benefits" aria-labelledby="benefits-title">
+      <div class="container">
+        <header class="section__head">
+          <p class="eyebrow reveal">Почему LUMEN</p>
+          <h2 class="h2 reveal" id="benefits-title">Преимущества</h2>
+        </header>
+        <div class="benefits__grid">
+          <article class="benefit glass glass--card reveal">
+            <span class="icon"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 3a9 9 0 0 0 0 18c1.5 0 2-1 2-2s-1-1.5-1-2.5S14 15 15.5 15H18a3 3 0 0 0 3-3"/><circle cx="7.5" cy="11" r="1"/><circle cx="10" cy="7" r="1"/><circle cx="15" cy="7.5" r="1"/></svg></span>
+            <h3>Точное попадание в цвет</h3>
+            <p>Подбор по спектрофотометру и физическим образцам. Отклонение от эталона — не больше ΔE&nbsp;1.</p>
+          </article>
+          <article class="benefit glass glass--card reveal" style="--d:.06s">
+            <span class="icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6h16M4 10h16M4 14h16M4 18h16"/><path d="M8 3v18" opacity=".5"/></svg></span>
+            <h3>Качественные ткани и алюминий</h3>
+            <p>Ткани из Бельгии и Германии, анодированный алюминий без «гуляния» ламелей и выгорания.</p>
+          </article>
+          <article class="benefit glass glass--card reveal" style="--d:.12s">
+            <span class="icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14.7 6.3a4 4 0 0 0-5.4 5.4L3 18v3h3l6.3-6.3a4 4 0 0 0 5.4-5.4l-2.5 2.5-2.4-.6-.6-2.4z"/></svg></span>
+            <h3>Установка под ключ</h3>
+            <p>Бесплатный замер, доставка и монтаж за один визит. Убираем за собой и вывозим упаковку.</p>
+          </article>
+          <article class="benefit glass glass--card reveal" style="--d:.18s">
+            <span class="icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3l8 3v6c0 4.5-3.4 8.3-8 9-4.6-.7-8-4.5-8-9V6z"/><path d="M8.5 12l2.5 2.5 4.5-5"/></svg></span>
+            <h3>Гарантия 5 лет</h3>
+            <p>Официальная гарантия на механизмы и ткани. Сервисный выезд в течение 48 часов.</p>
+          </article>
+          <article class="benefit glass glass--card reveal" style="--d:.24s">
+            <span class="icon"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg></span>
+            <h3>От 5 дней</h3>
+            <p>Собственный цех без посредников — изготавливаем быстро и держим сроки по договору.</p>
+          </article>
+          <article class="benefit glass glass--card reveal" style="--d:.3s">
+            <span class="icon"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="7" y="2" width="10" height="20" rx="2.5"/><path d="M11 18h2"/><path d="M3 9a6 6 0 0 1 0 6M21 9a6 6 0 0 0 0 6"/></svg></span>
+            <h3>Умное управление</h3>
+            <p>Электроприводы с пультом, сценариями и голосовым управлением через «умный дом».</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 6. ГАЛЕРЕЯ ============ -->
+    <section class="section gallery" id="gallery" aria-labelledby="gallery-title">
+      <div class="container">
+        <header class="section__head">
+          <p class="eyebrow reveal">Портфолио</p>
+          <h2 class="h2 reveal" id="gallery-title">Наши объекты</h2>
+          <p class="section__sub reveal">Квартиры, загородные дома и офисы. Нажмите на фото, чтобы увеличить.</p>
+        </header>
+        <div class="gallery__grid">
+          <button class="shot shot--tall reveal" data-full="images/g1.webp" aria-label="Увеличить: спальня с большим окном"><img src="images/g1.webp" width="1200" height="800" loading="lazy" alt="Светлая спальня с большим окном"><span>Спальня · ЖК «Резиденция»</span></button>
+          <button class="shot reveal" style="--d:.06s" data-full="images/g2.webp" aria-label="Увеличить: гостиная с панорамным окном"><img src="images/g2.webp" width="1200" height="900" loading="lazy" alt="Гостиная с панорамным окном и тёплым светом"><span>Гостиная · Хамовники</span></button>
+          <button class="shot reveal" style="--d:.12s" data-full="images/g4.webp" aria-label="Увеличить: тёмная спальня с панорамным окном"><img src="images/g4.webp" width="1200" height="762" loading="lazy" alt="Спальня в тёмных тонах с панорамным окном"><span>Мастер-спальня · Барвиха</span></button>
+          <button class="shot reveal" style="--d:.06s" data-full="images/g3.webp" aria-label="Увеличить: спальня с текстилем"><img src="images/g3.webp" width="1200" height="1200" loading="lazy" alt="Спальня в нейтральных тонах с окном и шторами"><span>Спальня · Пресня</span></button>
+          <button class="shot shot--wide reveal" data-full="images/g5.webp" aria-label="Увеличить: просторная гостиная"><img src="images/g5.webp" width="1200" height="800" loading="lazy" alt="Просторная светлая гостиная с высокими окнами"><span>Загородный дом · Новорижское ш.</span></button>
+          <button class="shot reveal" style="--d:.12s" data-full="images/g6.webp" aria-label="Увеличить: гостиная в бохо-стиле"><img src="images/g6.webp" width="1200" height="800" loading="lazy" alt="Гостиная в тёплых тонах с креслами и растениями"><span>Гостиная · Патриаршие</span></button>
+          <button class="shot shot--wide reveal" data-full="images/g7.webp" aria-label="Увеличить: фасад с жалюзи"><img src="images/g7.webp" width="1200" height="800" loading="lazy" alt="Фасад здания с горизонтальными жалюзи в окнах"><span>Офисный центр · Сити</span></button>
+          <button class="shot shot--wide reveal" style="--d:.06s" data-full="images/g8.webp" aria-label="Увеличить: ламели крупным планом"><img src="images/g8.webp" width="1200" height="798" loading="lazy" alt="Тёмные алюминиевые ламели жалюзи крупным планом"><span>Ламели «Графит» · деталь</span></button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 7. КАК МЫ РАБОТАЕМ ============ -->
+    <section class="section process" id="process" aria-labelledby="process-title">
+      <div class="container">
+        <header class="section__head">
+          <p class="eyebrow reveal">Процесс</p>
+          <h2 class="h2 reveal" id="process-title">Как мы работаем</h2>
+        </header>
+        <ol class="steps">
+          <li class="step glass glass--card reveal"><span class="step__n">01</span><h3>Заявка</h3><p>Оставляете заявку или звоните. Отвечаем за 15 минут и уточняем задачу.</p></li>
+          <li class="step glass glass--card reveal" style="--d:.08s"><span class="step__n">02</span><h3>Замер и подбор цвета</h3><p>Замерщик приезжает с каталогом из 1 200 образцов и подбирает оттенок на месте.</p></li>
+          <li class="step glass glass--card reveal" style="--d:.16s"><span class="step__n">03</span><h3>Производство</h3><p>Изготавливаем изделия в собственном цехе за 5–7 дней с контролем качества.</p></li>
+          <li class="step glass glass--card reveal" style="--d:.24s"><span class="step__n">04</span><h3>Монтаж</h3><p>Устанавливаем за один визит, настраиваем и выдаём гарантию на 5 лет.</p></li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ============ 8. КАЛЬКУЛЯТОР ============ -->
+    <section class="section calc" id="calc" aria-labelledby="calc-title">
+      <div class="calc__bg" data-parallax="0.15" aria-hidden="true"><img src="images/cta.webp" width="1600" height="1088" loading="lazy" alt=""></div>
+      <div class="container">
+        <div class="calc__panel glass glass--frame reveal">
+          <div class="calc__intro">
+            <p class="eyebrow">Калькулятор</p>
+            <h2 class="h2" id="calc-title">Рассчитать стоимость</h2>
+            <p>Укажите тип изделия, размеры и цвет. Расчёт обновляется сразу, а менеджер подтвердит точную цену после замера.</p>
+
+            <div class="estimate" aria-live="polite">
+              <span class="estimate__label">Ориентировочная стоимость</span>
+              <output class="estimate__value" id="estimate">— ₽</output>
+              <span class="estimate__note" id="estimate-note">Укажите размеры окна</span>
+            </div>
+          </div>
+
+          <form class="form" id="lead-form" novalidate>
+            <div class="form__grid">
+              <label class="field field--full">
+                <span>Тип изделия</span>
+                <select name="product" id="f-product" required>
+                  <option value="horizontal">Горизонтальные жалюзи</option>
+                  <option value="vertical">Вертикальные жалюзи</option>
+                  <option value="roller" selected>Рулонные шторы — стандарт</option>
+                  <option value="dayNight">Рулонные шторы — день-ночь</option>
+                  <option value="blackout">Рулонные шторы — блэкаут</option>
+                  <option value="pleated">Плиссе</option>
+                </select>
+              </label>
+              <label class="field">
+                <span>Ширина, см</span>
+                <input type="number" name="width" id="f-width" min="30" max="600" step="1" inputmode="numeric" placeholder="120" required>
+              </label>
+              <label class="field">
+                <span>Высота, см</span>
+                <input type="number" name="height" id="f-height" min="30" max="400" step="1" inputmode="numeric" placeholder="160" required>
+              </label>
+              <label class="field">
+                <span>Цвет</span>
+                <select name="color" id="f-color">
+                  <option value="Шампань">Шампань</option>
+                  <option value="Тёплый беж">Тёплый беж</option>
+                  <option value="Матовое золото">Матовое золото</option>
+                  <option value="Бронза">Бронза</option>
+                  <option value="Пыльная роза">Пыльная роза</option>
+                  <option value="Олива">Олива</option>
+                  <option value="Сланцевый синий">Сланцевый синий</option>
+                  <option value="Антрацит">Антрацит</option>
+                  <option value="Графит">Графит</option>
+                </select>
+              </label>
+              <label class="field">
+                <span>Количество окон</span>
+                <input type="number" name="qty" id="f-qty" min="1" max="50" value="1" inputmode="numeric">
+              </label>
+              <label class="check field--full">
+                <input type="checkbox" name="install" id="f-install" checked>
+                <span>Нужен монтаж под ключ</span>
+              </label>
+              <label class="field">
+                <span>Имя</span>
+                <input type="text" name="name" id="f-name" autocomplete="name" placeholder="Как к вам обращаться" required>
+              </label>
+              <label class="field">
+                <span>Телефон</span>
+                <input type="tel" name="phone" id="f-phone" autocomplete="tel" placeholder="+7 (___) ___-__-__" required>
+              </label>
+            </div>
+            <button class="btn btn--gold btn--lg btn--block" type="submit">
+              <span>Отправить заявку</span>
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+            </button>
+            <p class="form__legal">Нажимая кнопку, вы соглашаетесь с обработкой персональных данных.</p>
+
+            <div class="form__success" hidden>
+              <span class="form__check" aria-hidden="true"><svg viewBox="0 0 52 52"><circle cx="26" cy="26" r="24"/><path d="M15 27l7 7 15-16"/></svg></span>
+              <h3>Заявка принята</h3>
+              <p>Спасибо! Перезвоним в течение 15 минут, чтобы договориться о бесплатном замере.</p>
+              <button class="btn btn--glass btn--sm" type="button" id="form-reset">Новый расчёт</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 9. КОНТАКТЫ ============ -->
+    <section class="section contacts" id="contacts" aria-labelledby="contacts-title">
+      <div class="container contacts__grid">
+        <div>
+          <p class="eyebrow reveal">Контакты</p>
+          <h2 class="h2 reveal" id="contacts-title">Приезжайте в шоурум — <em>потрогать ткани</em></h2>
+        </div>
+        <address class="contacts__cards">
+          <a class="contact glass glass--card reveal" href="tel:+79000000000"><span>Телефон</span><b>+7 (900) 000-00-00</b></a>
+          <a class="contact glass glass--card reveal" style="--d:.06s" href="mailto:hello@lumen-blinds.ru"><span>Почта</span><b>hello@lumen-blinds.ru</b></a>
+          <div class="contact glass glass--card reveal" style="--d:.12s"><span>Шоурум</span><b>Москва, ул. Примерная, 1</b><small>Пн–Сб 10:00–20:00</small></div>
+          <a class="contact glass glass--card reveal" style="--d:.18s" href="https://t.me/" target="_blank" rel="noopener"><span>Telegram</span><b>@lumen_blinds</b></a>
+        </address>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <a class="brand" href="#top" aria-label="LUMEN — наверх"><span class="brand__mark" aria-hidden="true"><i></i><i></i><i></i></span><span class="brand__name">LUMEN</span></a>
+      <nav class="footer__nav" aria-label="Нижнее меню">
+        <a href="#catalog">Каталог</a><a href="#colors">Цвета</a><a href="#gallery">Объекты</a><a href="#calc">Расчёт</a>
+      </nav>
+      <p class="footer__copy">© <span id="year">2026</span> LUMEN. Жалюзи и рулонные шторы на заказ.</p>
+    </div>
+    <div class="footer__giant" aria-hidden="true">LUMEN</div>
+  </footer>
+
+  <!-- Лайтбокс галереи -->
+  <dialog class="lightbox" id="lightbox" aria-label="Просмотр фото">
+    <button class="lightbox__close" type="button" aria-label="Закрыть">×</button>
+    <button class="lightbox__nav lightbox__prev" type="button" aria-label="Предыдущее фото">‹</button>
+    <img alt="">
+    <button class="lightbox__nav lightbox__next" type="button" aria-label="Следующее фото">›</button>
+    <p class="lightbox__cap"></p>
+  </dialog>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
